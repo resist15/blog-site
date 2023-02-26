@@ -1,4 +1,88 @@
 baseURL: http://example.org/
 languageCode: en-us
 title: sourav's blogs
-theme: "PaperMod"
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "I Am Sourav Jagtap"
+    subtitle: "Your Friendly Neighbourhood Tech Nerd / AOSP Developer"
+    imageUrl: "https://avatars.githubusercontent.com/u/68729701?v=4"
+    imageWidth: 220
+    imageHeight: 220
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false 
+    hiddenInSingle: false 
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:souravhjagtap21@gmail.com"
+    - name: "instagram"
+      url: "https://www.instagram.com/xyz.sourav/"
+    - name: "github"
+      url: "https://github.com/resist15"
+    - name: "telegram"
+      url: "https://t.me/xyz_sourav"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
