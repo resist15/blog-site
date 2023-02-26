@@ -28,6 +28,7 @@ menu:
 
 params:
   # theme
+  defaultTheme: auto
   showToc: true
   TocOpen: false
   ShowBreadCrumbs: true
