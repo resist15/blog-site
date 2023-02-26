@@ -8,7 +8,7 @@ weight: 999999
 
 ## Download Links for Installation Media
 
-- [TWRP Recovery]()
+- [Dynamic Retrofit TWRP Recovery]()
 - [Disable Forced Encryption]()
 - [AOSP Recovery]()
 
