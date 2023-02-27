@@ -41,7 +41,7 @@ params:
     enabled: true
     title: "I Am Sourav Jagtap"
     subtitle: "Your Friendly Neighbourhood Tech Nerd / AOSP Developer"
-    imageUrl: "https://avatars.githubusercontent.com/u/68729701?v=4"
+    imageUrl: "sourav/ok.jpg"
     imageWidth: 220
     imageHeight: 220
 
