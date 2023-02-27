@@ -9,9 +9,9 @@ weight: 999999
 
 ## Download Links for Installation Media
 
-- [Dynamic Retrofit TWRP Recovery]()
-- [Disable Forced Encryption]()
-- [AOSP Recovery]()
+- [Dynamic Retrofit TWRP Recovery](https://www.pling.com/p/1929563/)
+- [Disable Forced Encryption](https://t.me/resist15_support/32450)
+- [AOSP Recovery](https://t.me/resist15_support/32452)
 
 # Basic requirements
 
@@ -31,11 +31,11 @@ weight: 999999
 - Connect your device to your PC via USB if it isn’t already.
 - If your device isn’t already in fastboot mode, on the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type: **adb reboot bootloader** You can also boot into fastboot mode via a key combination: With the device powered off, hold Volume Down + Power. Keep holding both buttons until the word “FASTBOOT” appears on the screen, then release.
 - Flash recovery onto your device (replace <recovery_filename> with the actual filename!):
-    **fastboot flash recovery <recovery_filename>.img**
+    ``` **fastboot flash recovery <recovery_filename>.img** ```
 
 # Installing Project 404 / ArrowOS With TWRP Recovery
 
-- Boot Into **`Recommended`** TWRP Recovery
+- Boot Into [**`Recommended`**](https://www.pling.com/p/1929563/) TWRP Recovery
 - If U Are Encrypted Format Data Is Necessary / Skip This Step If Already Decrypted
 - Wipe -> Advanced Wipe -> Wipe Data + Dalvik + Cache
 - Flash 404 Rom Package
@@ -48,7 +48,7 @@ weight: 999999
 - Select Factory reset" --> "Format data/factory reset. You phone should say that /data, /cache  have been formatted.
 - Go back to main menu and select "Apply update" --> "Apply from ADB"
 - Connect your phone to a computer
-- Run adb sideload p404_rom_file_name.zip in your cmd/powershell/terminal and wait until it finishes.
+- Run ``` adb sideload p404_rom_file_name.zip ``` in your cmd/powershell/terminal and wait until it finishes.
 - Reboot to system
 
 ### InShort For Dynamic
