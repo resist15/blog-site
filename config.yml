@@ -17,9 +17,9 @@ menu:
       name: Projects
       url: /projects
       weight: 30
-    - identifier: experience
-      name: Experience
-      url: /experience
+    - identifier: donate
+      name: Donate
+      url: /donate
       weight: 40
     - identifier: search
       name: Search
@@ -28,12 +28,18 @@ menu:
 
 params:
   # theme
+  author: ["By Sourav Jagtap"]
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
   defaultTheme: auto
   showToc: true
   TocOpen: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
+  ShowCodeCopyButtons: true
 
   # for enchanced SEO
   env: production

@@ -1,6 +1,7 @@
 ---
-title: "Installation Guide For Project404 / ArrowOS"
-dateString: Feb 2023
+title: "Installation Guide | Dynamic |  Project404 / ArrowOS"
+summary: Read Install and Update instructions here
+date: 2023-02-27
 draft: false
 tags: ["Project 404", "Arrow", "Dynamic",]
 weight: 999999
