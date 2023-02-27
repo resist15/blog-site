@@ -13,14 +13,6 @@ menu:
       name: Blog
       url: /blog
       weight: 20
-    - identifier: projects
-      name: Projects
-      url: /projects
-      weight: 30
-    - identifier: donate
-      name: Donate
-      url: /donate
-      weight: 40
     - identifier: search
       name: Search
       url: /search
