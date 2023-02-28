@@ -33,6 +33,8 @@ params:
   hideMeta: false
   ShowCodeCopyButtons: true
 
+  assets: favicon: "/static/sourav/ok.jpg"
+
   # for enchanced SEO
   env: production
 
