@@ -36,7 +36,8 @@ weight: 999999
 # Installing Project 404 / ArrowOS With TWRP Recovery
 
 - Boot Into [**`Recommended`**](https://www.pling.com/p/1929563/) TWRP Recovery
-- If U Are Encrypted Format Data Is Necessary / Skip This Step If Already Decrypted
+- Wipe -> Format Data -> type yes (Necessary If Coming From Non Dynamic ROM)
+- Reboot to Recovery
 - Wipe -> Advanced Wipe -> Wipe Data + Dalvik + Cache
 - Flash 404 Rom Package
 - Mount Vendor and Flash DFE to Stay decrypted ( Optional )
